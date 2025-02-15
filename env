@@ -1,0 +1,33 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = production
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+app.systemName = 'AI Content'
+app.baseURL = 'https://www.siteadi.com'
+app.forceGlobalSecureRequests = true
+site.cdnUrl = 'https://www.siteadi.com'
+
+site.Cache = 'true';
+site.CachetimeOut = '60';
+
+site.about_page = ''
+site.privacy_policy_page = ''
+site.contact_page = ''
+site.PublishingCronTime = 10
+
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = localhost
+database.default.database = db_name
+database.default.username = db_user
+database.default.password = db_pass
+database.default.DBDriver = MySQLi
+# database.default.port = 3306
